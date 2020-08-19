@@ -5,6 +5,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
+import java.io.File;
  
 import org.testng.IReporter;
 import org.testng.IResultMap;
@@ -26,9 +27,8 @@ public class ExtentReporterNG implements IReporter {
     private ExtentReports extent;
     ExtentHtmlReporter htmlReporter;
  
-    public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
-    	
-        htmlReporter = new ExtentHtmlReporter(System.getProperty("C:\\Guna\\workspace\\eclipse-workspace\\MobileTesting\\test-output\\Gunasekhar.html"));
+    public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {    	
+        htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"\\Reports\\htmlreport.html");
        extent = new ExtentReports();
         
         extent.attachReporter(htmlReporter);

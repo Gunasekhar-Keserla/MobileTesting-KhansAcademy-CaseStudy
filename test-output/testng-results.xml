@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="140809" started-at="2020-08-19T07:23:20 IST" finished-at="2020-08-19T07:25:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="140809" started-at="2020-08-19T07:23:20 IST" finished-at="2020-08-19T07:25:40 IST">
+      <class name="olearning.hybrid.tests.TestRunner2">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:olearning.hybrid.tests.TestRunner2@6121c9d6]" name="loginTest" is-config="true" duration-ms="49711" started-at="2020-08-19T07:22:30 IST" finished-at="2020-08-19T07:23:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:olearning.hybrid.tests.TestRunner2@6121c9d6]" name="BeforeMethod" is-config="true" duration-ms="2000" started-at="2020-08-19T07:23:20 IST" finished-at="2020-08-19T07:23:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="selectLanguageTest()[pri:0, instance:olearning.hybrid.tests.TestRunner2@6121c9d6]" name="selectLanguageTest" duration-ms="20239" started-at="2020-08-19T07:23:22 IST" finished-at="2020-08-19T07:23:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLanguageTest -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:olearning.hybrid.tests.TestRunner2@6121c9d6]" name="AfterMethod" is-config="true" duration-ms="2000" started-at="2020-08-19T07:23:42 IST" finished-at="2020-08-19T07:23:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:olearning.hybrid.tests.TestRunner2@6121c9d6]" name="BeforeMethod" is-config="true" duration-ms="2002" started-at="2020-08-19T07:23:44 IST" finished-at="2020-08-19T07:23:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="selectCoursesTest()[pri:1, instance:olearning.hybrid.tests.TestRunner2@6121c9d6]" name="selectCoursesTest" duration-ms="44222" started-at="2020-08-19T07:23:46 IST" finished-at="2020-08-19T07:24:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCoursesTest -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:olearning.hybrid.tests.TestRunner2@6121c9d6]" name="AfterMethod" is-config="true" duration-ms="2003" started-at="2020-08-19T07:24:30 IST" finished-at="2020-08-19T07:24:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:olearning.hybrid.tests.TestRunner2@6121c9d6]" name="BeforeMethod" is-config="true" duration-ms="2001" started-at="2020-08-19T07:24:32 IST" finished-at="2020-08-19T07:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="playClassVideoTest()[pri:2, instance:olearning.hybrid.tests.TestRunner2@6121c9d6]" name="playClassVideoTest" duration-ms="64272" started-at="2020-08-19T07:24:34 IST" finished-at="2020-08-19T07:25:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playClassVideoTest -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:olearning.hybrid.tests.TestRunner2@6121c9d6]" name="AfterMethod" is-config="true" duration-ms="2000" started-at="2020-08-19T07:25:38 IST" finished-at="2020-08-19T07:25:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:olearning.hybrid.tests.TestRunner2@6121c9d6]" name="logoutTest" is-config="true" duration-ms="8055" started-at="2020-08-19T07:25:40 IST" finished-at="2020-08-19T07:25:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- olearning.hybrid.tests.TestRunner2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
